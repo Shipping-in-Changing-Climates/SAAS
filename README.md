@@ -1,2 +1,2 @@
-# SAAS
-Ship As A System
+# whole-ship-model
+An Holistic Ship Model
