@@ -19,6 +19,10 @@ Created on Fri May 22 14:56:43 2015
     Bio-Methanol LCV is from "The Swedish Knowledge Centre for Renewable
     Transportation Fuels" http://www.f3centre.se/fact-sheet/methanol
 
+    Other LCV values are taken from "Determination of energy cost of electrical energy on board sea-going vessels"
+    By Dr. Wild, Ingenieurbüro, GmbH
+        
+
     Fossil Fuel
     ===========
     Index   Type                   LCV (MJ/kg)
@@ -64,17 +68,18 @@ EF source for methanol:http://biofuel.org.uk/bioalcohols.html
 #}
 
 # FIXME get values for the rest of the CO2 emission factors
+# place-holder of 0.0 has been set for the unkown fuels.
 
 fuel_list = {1: ["HFO", 40.435, 3.114], \
              2: ["MDO", 42.7, 3.206],   \
              3: ["LNG", 45.0, 2.750],   \
              4: ["Methanol", 19.93, 1.37],  \
              5: ["Hydrogen", 120.0, 0.0],   \
-             6: ["SVO (Soya bean)", 39.62],  \
-             7: ["Bio-Diesel (Rapeseed)", 36.5],   \
-             8: ["Bio-Diesel (Soya bean)", 39.75],    \
-             9: ["Bio-Diesel (Rapeseed)", 37.0],    \
-             10: ["Bio-LNG", 0.0],   \
-             11: ["Bio-Methanol", 19.8],   \
-             12: ["Bio-Hydrogen", 0.0],   \
+             6: ["SVO (Soya bean)", 39.62, 0.0],  \
+             7: ["Bio-Diesel (Rapeseed)", 36.5, 0.0],   \
+             8: ["Bio-Diesel (Soya bean)", 39.75, 0.0],    \
+             9: ["Bio-Diesel (Rapeseed)", 37.0, 0.0],    \
+             10: ["Bio-LNG", 0.0, 0.0],   \
+             11: ["Bio-Methanol", 19.8, 0.0],   \
+             12: ["Bio-Hydrogen", 0.0, 0.0],   \
 }

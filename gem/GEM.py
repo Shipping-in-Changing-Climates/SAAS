@@ -286,7 +286,7 @@ def fuel_type_sfoc(fuel_type, sfoc_hfo):
 
     # based upon a linear relationship, calculate the SFOC at L1 for
     # the selected fuel type
-    sfoc_ft = sfoc_hfo/fuel_list[1][1]*fuel_list[fuel_type][1]
+    sfoc_ft = sfoc_hfo * fuel_list[1][1]/fuel_list[fuel_type][1]
 
     return sfoc_ft
 
