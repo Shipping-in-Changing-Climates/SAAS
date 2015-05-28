@@ -838,4 +838,5 @@ def run_gem(case_study, q_trial, rpm_trial, q_run, rpm_run, hotel_load_design, h
 
     
     # return necessary output
+    # TODO need to return SFOC for main and aux, as well as the delta's in emissions from various clean technologies (which also need to be implimented)
     return ship1.co2_total
